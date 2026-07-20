@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мария Казарцева — модельер-конструктор</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="hero">
+  <div class="container hero-inner">
+    <img src="images/avatar.jpg" alt="Мария Казарцева" class="avatar">
+    <h1>Мария Казарцева</h1>
+    <p class="role">модельер-конструктор</p>
+    <p class="subtitle">авторский дизайн, лекала и техдокументация</p>
+    <a href="#contact" class="btn">Написать мне</a>
+  </div>
+</header>
+
+<nav>
+  <div class="container nav-links">
+    <a href="#about">Обо мне</a>
+    <a href="#portfolio">Проекты</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
+  </div>
+</nav>
+
+<section id="about" class="container">
+  <h2>Обо мне</h2>
+  <p>Высшее образование по специальности «Конструирование швейных изделий», дополнительные квалификации «Закройщик» и «Художник по костюму». Работаю со следующими методиками конструирования: ЕМКО СЭВ, «Мюллер и сын», ЦНИИШП. Уверенный пользователь AutoCAD и CorelDraw, Грация, использую AI-инструменты для визуализации моделей и коллекций.</p>
+  <p>В своих проектах делаю упор на работу с формой и силуэтом, архитектоникой костюма, особое внимание уделяю качеству конструкции и подбору материалов. Ниже представлены работы.</p>
+</section>
+
+<section id="portfolio" class="container">
+  <h2>Проекты</h2>
+  <div class="grid" id="track-grid"></div>
+</section>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">&times;</button>
+    <div class="modal-content" id="modal-content"></div>
+  </div>
+</div>
+
+<div class="lightbox-overlay" id="lightbox-overlay">
+  <button class="lightbox-close" id="lightbox-close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<section id="services" class="container">
+  <h2>Услуги и условия</h2>
+  <p>Готова сотрудничать с брендами и индивидуальными заказчиками на разных этапах производства, в зависимости от проекта и требуемых задач выполняю следующие работы:</p>
+  <ul class="services-list">
+    <li>Конструирование базовой и модельной основы</li>
+    <li>Разработка лекал и технической документации</li>
+    <li>Градация</li>
+    <li>Спецификация лекал и составление табеля технических измерений</li>
+    <li>Исследование ассортимента и конкурентный анализ</li>
+    <li>Выполнение художественных и технических эскизов</li>
+    <li>AI-генерации эскизов и существующих изделий</li>
+  </ul>
+  <p>Являюсь самозанятой, сотрудничество также возможно по ГПХ и трудовому договору.</p>
+</section>
+
+<section id="contact" class="container">
+  <h2>Контакты</h2>
+  <p>Почта: <a href="mailto:mariekazartseva@gmail.com">mariekazartseva@gmail.com</a></p>
+  <p>Телефон: <a href="tel:+79218938578">8 (921) 893-85-78</a></p>
+  <p>Телеграм: <a href="https://t.me/M_kvtt" target="_blank">@M_kvtt</a></p>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Мария Казарцева. Все права защищены.</p>
+  </div>
+</footer>
+
+<script src="tracks.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
